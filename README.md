@@ -1,37 +1,24 @@
-# SalesAnalysis_SQL_PowerBI
+## Sales Analysis Dashboard
 
-### Setup
-- This project requires SQL Server (SQL Express), Power BI Desktop
-- We will work with backup Data Warehouse (DW) data and Lightweight (LT) data. Obtain data and restore following instructions from [here.](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)
-- Compare DW and LT data to understand the difference between structured and unstructured data. We will primarily be working with Data Warehouse data.
-- Update Data Warehouse data using [sql script.](https://github.com/techtalkcorner/SampleDemoFiles/blob/master/Database/AdventureWorks/Update_AdventureWorksDW_Data.sql)
+## Executive Summary
+This project aims to enhance sales reporting and performance tracking through the development of comprehensive visual dashboards using Power BI. The dashboards provide detailed insights into internet sales, enabling better tracking of customer and product performance, and comparing sales against budget targets.
 
-### Business Request & User Stories
-- Read the sample business request, demand overview & filled-out user stories to understand the problem we are trying to solve with Data Analysis and what we consider as a solution.
+## Motivation
+The motivation for this project stems from the need to improve sales oversight and decision-making within the organization. By providing real-time data visualizations, sales managers and representatives can more effectively track sales trends, identify high-performing products and customers, and make data-driven decisions to drive sales growth and operational efficiency.
 
-### Clean the Data using T-SQL
-- Understand the difference between FACT tables & Dimension tables.
-- Identify which tables in the data are of interest with the help of the Business Request form.
-- Choose which columns are of interest to export by preparing and transforming these columns in SQL using concepts such as: renaming columns, combining columns, commenting in SQL script, formatting of SQL statements, WHERE clause, ORDER BY, LEFT JOIN, CASE() function and ISNULL() function. 
+## Data Questions
+How do internet sales vary across different customer segments?
+Which products generate the highest sales, and how can this information be used to optimize inventory and marketing strategies?
+How do sales trends compare against budget targets over time?
 
-### Create Dashboard in Power BI
-- Load Data
-- Organize & Prepare Tables
-- Connect Tables for Data Model
-- Import Fact_Budget
-- Calculation Measures
-- Dashboard Design
-- Import Custom Visual
-- Measure Table
-- Pie Chart
-- Line Chart
-- Bar Charts
-- Map Graph
-- Top 10 Graphs
-- Gradient Bar Chart Color
-- Customer Details
-- Pivot Table
+## Technologies Used
+SQL Server (SQL Express): For data storage and querying
+Power BI Desktop: For creating interactive dashboards and data visualizations
 
-### Dashboard
-- [Download the file](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pbix) and open in Power BI Desktop for interactive viewing.
-- [See a screenshot](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pdf) of the Dashboard in pdf.
+## Data Sources
+Sales Data: Obtained from the company's CRM system and updated using this SQL script.
+
+## Known Issues and Challenges
+Data Quality: Ensuring the reliability and accuracy of sales data from various sources.
+Data Integration: Combining data from different systems for a comprehensive analysis.
+User Adoption: Ensuring that the sales team effectively utilizes the dashboards for decision-making.
