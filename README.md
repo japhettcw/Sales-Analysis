@@ -3,6 +3,15 @@
 ## Executive Summary
 This project aims to enhance sales reporting and performance tracking through the development of comprehensive visual dashboards using Power BI. The dashboards provide detailed insights into internet sales, enabling better tracking of customer and product performance, and comparing sales against budget targets.
 
+## Sales Overview
+![](video/sales_overview.gif)
+
+## Customer Details
+![](video/customer_details.gif)
+
+## Product Details
+![](video/product_details.gif)
+
 ## Motivation
 The motivation for this project stems from the need to improve sales oversight and decision-making within the organization. By providing real-time data visualizations, sales managers and representatives can more effectively track sales trends, identify high-performing products and customers, and make data-driven decisions to drive sales growth and operational efficiency.
 
